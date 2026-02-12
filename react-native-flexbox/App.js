@@ -3,8 +3,8 @@ import { SafeAreaView } from 'react-native';
 // import Flex from './components/Flex';
 // import FlexDirectionBasics from './components/FlexDirectionBasics';
 // import DirectionLayout from './components/DirectionLayout';
-import JustifyContentBasics from './components/JustifyContentBasics';
-
+// import JustifyContentBasics from './components/JustifyContentBasics';
+import AlignItemsLayout from './components/AlignItemsLayout';
 
 
 
@@ -14,8 +14,8 @@ export default function App() {
       {/* <Flex /> */}
       {/* <FlexDirectionBasics /> */}
       {/* <DirectionLayout /> */}
-      <JustifyContentBasics />
-
+      {/* <JustifyContentBasics /> */}
+      <AlignItemsLayout />
       <StatusBar />
     </SafeAreaView>
   );
