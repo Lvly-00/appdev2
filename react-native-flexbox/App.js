@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native';
-import Flex from './components/Flex';
+// import Flex from './components/Flex';
+import FlexDirectionBasics from './components/FlexDirectionBasics';
 
 
 
@@ -8,9 +9,8 @@ import Flex from './components/Flex';
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-
-      <Flex />
-
+      {/* <Flex /> */}
+      <FlexDirectionBasics />
 
       <StatusBar />
     </SafeAreaView>
