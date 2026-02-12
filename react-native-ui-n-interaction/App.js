@@ -1,16 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { View } from 'react-native';
+import { SafeAreaView  } from 'react-native';
 // import LotsOfStyles from './components/LotsOfStyles'; 
-import FixedDimensionsBasics from './components/FixedDimensionsBasics'; 
+// import FixedDimensionsBasics from './components/FixedDimensionsBasics';
+import FlexDimensionsBasics from './components/FlexDimensionsBasics';
+
 
 
 export default function App() {
   return (
-    <View>
-      {/* <LotsOfStyles /> */}
-      <FixedDimensionsBasics />
-      <StatusBar/>
-    </View>
+    <SafeAreaView style={{flex: 1}}>
+      {/* <LotsOfStyles/> */}
+      {/* <FixedDimensionsBasics/> */}
+      <FlexDimensionsBasics/>
+
+      <StatusBar />
+    </SafeAreaView>
   );
 }
 
