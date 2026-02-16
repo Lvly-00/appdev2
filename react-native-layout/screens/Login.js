@@ -118,9 +118,7 @@ const styles = StyleSheet.create({
         width: '300',
         height: 60,
     },
-    icon: {
-        marginRight: 10,
-    },
+  
     input: {
         flex: 1,
         height: '100%',
