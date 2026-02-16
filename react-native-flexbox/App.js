@@ -5,10 +5,9 @@ import { SafeAreaView } from 'react-native';
 // import DirectionLayout from './components/DirectionLayout';
 // import JustifyContentBasics from './components/JustifyContentBasics';
 // import AlignItemsLayout from './components/AlignItemsLayout';
-import AlignSelfLayout from './components/AlignSelfLayout';
-import AlignContentLayout from './components/AlignContentLayout';
-
-
+// import AlignSelfLayout from './components/AlignSelfLayout';
+// import AlignContentLayout from './components/AlignContentLayout';
+import FlexWrapLayout from './components/FlexWrapLayout';
 
 
 
@@ -21,7 +20,8 @@ export default function App() {
       {/* <JustifyContentBasics /> */}
       {/* <AlignItemsLayout/> */}
       {/* <AlignSelfLayout /> */}
-      <AlignContentLayout />
+      {/* <AlignContentLayout /> */}
+      <FlexWrapLayout />
 
 
       <StatusBar />
