@@ -29,6 +29,7 @@ function DetailsScreen() {
       <Button onPress={() => navigation.push('Details')}>
         Go to Details... again
       </Button>
+      <Button onPress={() => navigation.goBack()}>Go back</Button>
     </View>
   );
 }
@@ -46,4 +47,3 @@ const Navigation = createStaticNavigation(RootStack);
 export default function App() {
   return <Navigation />;
 }
-
